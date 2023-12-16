@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!--Metadata-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Add title and favicon-->
+    <title>Scorched Earth</title>
+    <link rel="stylesheet" type="text/css" href="/local.css"><!--Local-->
+
+    <script src="./local.js"></script><!--Local-->
+    
+    <!--Import The Game Files-->
+    <script src="./Libraries/p5.js"></script>
+    <script src="./Libraries/p5.play.js"></script>
+    <script src="./game.js"></script>
+    
+    <!--Addons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+
+<!--Title-->
+<header class="section">
+    <h1>Scorched Earth</h1>
+</header>
+
+
+<!--Main Game Content-->
+<body>
+    <!--Coontent Box 1-->    
+    <div class="section">
+        <h1>Scorched Earth</h1>
+        <div id="Game" class="game-Canvas" onclick="Shoot()"></div>
+        <p>
+            In this game you must protect your world from aliens who have come to attack your world.
+            You have 100 bullets, 2 minutes and must get at least 25 kills in order to win the game.<br/><br/>
+
+            How to play:<br/>
+            The goal of the game is to get as many kills before the timmer runs out.<br/>
+            In order to to get kills shoot at the alliens as they go past,<br/>
+            Just make sure you take into account the distance the bullet has to travel, and the fact that you have limited bullets(100).<br/><br/>
+
+            controls:<br/>
+            Left click or W to shoot<br/>
+            Left arrow or A key to go Left<br/>
+            Right arrow or D key to go Right
+        </p>
+    </div>
+</body>
+
+
+</html>
